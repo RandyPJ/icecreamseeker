@@ -1,0 +1,27 @@
+html, body, #app {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+}
+
+.title{
+  font-size: .98em;
+  font-weight: 300;
+  color: rgb(156, 151, 151)
+}
+
+.navbar{
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid rgb(179, 175, 175);
+}
+
+
