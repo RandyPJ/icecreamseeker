@@ -1,6 +1,6 @@
 <template>
   <div class="navbar">
-    <h1 class="title">Icecream Seeker</h1>
+    <h1 class="title">Icecream</h1>
   </div>
 </template>
 

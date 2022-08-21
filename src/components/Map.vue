@@ -15,22 +15,20 @@ function configureMap(position) {
     maxZoom: 19,
   }).addTo(map);
 
-  addPopup(map);
+  addLatitudeLongitudePopup(map);
   addLocateControl(map);
   addGeoJson(map);
 }
 
 function addLocateControl(map) {
   var locate = L.control.locate().addTo(map);
-
   locate.start();
-
   locate.onLocationError = function (error) {
     window.console.log(error);
   };
 }
 
-function addPopup(map) {
+function addLatitudeLongitudePopup(map) {
   let popup = L.popup();
 
   map.on("click", (event) => {
@@ -42,26 +40,39 @@ function addPopup(map) {
 }
 
 function addGeoJson(map) {
-  L.geoJSON(data, {
-    onEachFeature: function onEachFeature(feature, layer) {
-      layer.on("click", function (e) {
-        showPropertiesPopup(e, map, feature);
+  var icecreamMarker = L.icon({
+    iconUrl:
+      "https://cdn3.iconfinder.com/data/icons/placeholder/64/dessert-sweet-icecream-placeholder-pin-pointer-gps-map-location-512.png",
+    iconSize: [50, 50],
+    iconAnchor: [22, 90],
+    shadowAnchor: [4, 62],
+    popupAnchor: [-3, -76],
+  });
+
+  data.features.forEach((feature) => {
+    let [latitude, longitude] = feature.geometry.coordinates.slice();
+    L.marker([latitude, longitude], { icon: icecreamMarker })
+      .addTo(map)
+      .on("click", function (e) {
+        addFeaturePopup(e, map, feature);
       });
-    },
-  }).addTo(map);
+  });
 }
 
-function showPropertiesPopup(event, map, feature) {
+function addFeaturePopup(event, map, feature) {
   let popup = L.popup();
+  let [latitude, longitude] = feature.geometry.coordinates.slice();
   popup
     .setLatLng(event.latlng)
     .setContent(
       `<div>
-            <h2>${feature.properties.name}</h2>
+            <h2 class="popup-title">${feature.properties.name}</h2>
+            <p class="light-text">${latitude}, ${longitude}</p>
        </div>`
     )
     .openOn(map);
 }
+
 onMounted(() => {
   navigator.geolocation.getCurrentPosition(configureMap);
 });
@@ -72,8 +83,17 @@ onMounted(() => {
   <div id="map"></div>
 </template>
 
-<style>
+<style scoped>
 #map {
   height: 93.8vh;
+}
+
+.popup-title {
+  font-weight: 200;
+  font-family: "Raleway", sans-serif;
+}
+
+.light-text {
+  color: rgb(151, 142, 142);
 }
 </style>

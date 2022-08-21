@@ -10,7 +10,7 @@
       },
       "geometry": {
           "type": "Point",
-          "coordinates": [-70.25684, 19.29727]
+          "coordinates": [19.29727, -70.25684]
       }
     },
     {
@@ -22,7 +22,7 @@
       },
       "geometry": {
           "type": "Point",
-          "coordinates": [-70.25241, 19.29168]
+          "coordinates": [19.29168, -70.25241]
       }
     },
     {
@@ -34,7 +34,7 @@
       },
       "geometry": {
           "type": "Point",
-          "coordinates": [-70.26338, 19.28961]
+          "coordinates": [19.28961, -70.26338]
       }
     },
     {
@@ -46,8 +46,130 @@
       },
       "geometry": {
           "type": "Point",
-          "coordinates": [-70.26906, 19.28727]
+          "coordinates": [19.28727, -70.26906]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon (Castillo)",
+          "amenity": "",
+          "popupContent": ""
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [19.209796194429824, -70.02733418284451]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon (Tenares)",
+          "amenity": "",
+          "popupContent": ""
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [19.37189532458198, -70.35049551684708]
+      }
+    },    
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon (Salcedo)",
+          "amenity": "",
+          "popupContent": ""
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [19.37976936724059, -70.41837579467338]
+      }
+    },    
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon (Villa Tapia)",
+          "amenity": "",
+          "popupContent": ""
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [19.300591174601706, -70.42284455631386]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon (Pimentel)",
+          "amenity": "",
+          "popupContent": ""
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [19.182009027248036, -70.11026968754997]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon (Bonao)",
+          "amenity": "",
+          "popupContent": ""
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [18.942135862930197, -70.40992594197981]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon (Av. Gregorio Rivas (La Sirena), La Vega)",
+          "amenity": "",
+          "popupContent": ""
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [19.225592742630106, -70.51694783944626]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon - Yogen Früz (Av. Pedro A. Rivera (Jumbo), La Vega)",
+          "amenity": "",
+          "popupContent": ""
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [19.224524013752706, -70.52145629321629]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon - Yogen Früz (Av. Imbert, La Vega)",
+          "amenity": "",
+          "popupContent": ""
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [19.219883040430712, -70.52761558203952]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon - Yogen Früz (Calle Don Antonio Guzmán, La Vega)",
+          "amenity": "",
+          "popupContent": ""
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [19.22405671797822, -70.53233002918226]
       }
     }
   ]
 }
+
+
