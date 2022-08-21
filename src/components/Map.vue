@@ -44,9 +44,6 @@ function addGeoJson(map) {
     iconUrl:
       "https://cdn3.iconfinder.com/data/icons/placeholder/64/dessert-sweet-icecream-placeholder-pin-pointer-gps-map-location-512.png",
     iconSize: [50, 50],
-    iconAnchor: [22, 90],
-    shadowAnchor: [4, 62],
-    popupAnchor: [-3, -76],
   });
 
   data.features.forEach((feature) => {
@@ -85,7 +82,7 @@ onMounted(() => {
 
 <style scoped>
 #map {
-  height: 93.8vh;
+  height: 94vh;
 }
 
 .popup-title {
@@ -94,6 +91,6 @@ onMounted(() => {
 }
 
 .light-text {
-  color: rgb(151, 142, 142);
+  color: rgb(131, 120, 120);
 }
 </style>
