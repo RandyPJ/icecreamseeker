@@ -14,6 +14,8 @@ Helados Bon is an icecream maker company founded and active in the Dominican Rep
 
  - Mobile friendly map.
  - Powered by [Vite](https://github.com/vitejs/vite) and [Leaflet](https://leafletjs.com/).
+ 
+ - App is in early stage, more features will be added.
 
 
 ## License
