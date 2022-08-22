@@ -3,11 +3,13 @@
 import { onMounted } from "@vue/runtime-core";
 import data from "../database/icecreamdata/icecream.json";
 
-function configureMap(position) {
-  let longitude = position.coords.longitude;
-  let latitude = position.coords.latitude;
+function configureMap() {
+  let drLatLong = {
+    latitude: 18.486058,
+    longitude: -69.931212,
+  };
 
-  var map = L.map("map").setView([latitude, longitude], 13);
+  var map = L.map("map").setView([drLatLong.latitude, drLatLong.longitude], 13);
 
   L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
     attribution:
@@ -22,7 +24,7 @@ function configureMap(position) {
 
 function addLocateControl(map) {
   var locate = L.control.locate().addTo(map);
-  locate.start();
+  //locate.start();
   locate.onLocationError = function (error) {
     window.console.log(error);
   };
@@ -43,7 +45,7 @@ function addGeoJson(map) {
   var icecreamMarker = L.icon({
     iconUrl:
       "https://cdn3.iconfinder.com/data/icons/placeholder/64/dessert-sweet-icecream-placeholder-pin-pointer-gps-map-location-512.png",
-    iconSize: [50, 50],
+    iconSize: [35, 35],
   });
 
   data.features.forEach((feature) => {
@@ -71,7 +73,7 @@ function addFeaturePopup(event, map, feature) {
 }
 
 onMounted(() => {
-  navigator.geolocation.getCurrentPosition(configureMap);
+  configureMap();
 });
 </script>
 
@@ -86,8 +88,8 @@ onMounted(() => {
 }
 
 .popup-title {
-  font-weight: 200;
-  font-family: "Raleway", sans-serif;
+  font-size: 1em;
+  font-weight: 400;
 }
 
 .light-text {
