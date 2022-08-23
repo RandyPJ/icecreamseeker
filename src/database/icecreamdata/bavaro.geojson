@@ -1,0 +1,41 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon",
+          "amenity": "",
+          "popupContent": ""
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [18.636842887535863, -68.39741367461235]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon",
+          "amenity": "",
+          "popupContent": ""
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [18.608612772539324, -68.41262882132338]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon",
+          "amenity": "",
+          "popupContent": ""
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [18.59981124952981, -68.41865299816209]
+      }
+    }
+  ]
+}

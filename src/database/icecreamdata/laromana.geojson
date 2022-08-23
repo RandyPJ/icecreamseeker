@@ -1,0 +1,75 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [18.41887008988247, -68.96580605919053]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [18.423259371176428, -68.9673431061201]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [18.430488637154408, -68.98401737097448]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [18.41887175361574, -68.96580795371271]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [18.423259985698817, -68.96734537452097]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [18.434271201862686, -68.96962337463661]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Centro de Distribución de Helados Bon"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [18.43486852134823, -68.96543282819536]
+      }
+    }
+  ]
+}

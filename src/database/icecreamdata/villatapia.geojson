@@ -1,0 +1,18 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon (Villa Tapia)",
+          "amenity": "",
+          "popupContent": ""
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [19.300591174601706, -70.42284455631386]
+      }
+    }
+  ]
+}
+

@@ -1,0 +1,19 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon (Gaspar Hernandez)",
+          "amenity": "",
+          "popupContent": ""
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [19.627246401638107, -70.27949846271531]
+      }
+    }
+  ]
+}
+
+

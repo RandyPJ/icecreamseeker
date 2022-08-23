@@ -1,0 +1,17 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon (Cabrera)",
+          "amenity": "",
+          "popupContent": ""
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [19.637310443045514, -69.9045292619492]
+      }
+    }
+  ]
+}

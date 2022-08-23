@@ -1,0 +1,85 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [19.43031403491975, -70.69011220269132]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [19.450473006545543, -70.7009793690551]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [19.44831357747304, -70.67826242765751]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [19.458707758229835, -70.67468000960794]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [19.45047260870501, -70.70098077648969]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon & Yogen Fruz"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [19.462844612683273, -70.69230493068092]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [19.470400612563715, -70.68376303512933]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [19.473645470527412, -70.71397615099573]
+      }
+    }
+  ]
+}

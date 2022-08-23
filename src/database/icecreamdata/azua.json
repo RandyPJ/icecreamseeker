@@ -1,0 +1,25 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [18.453456821075747, -70.73431514959192]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [18.453933435928978, -70.7294642453816]
+      }
+    }
+  ]
+}

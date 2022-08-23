@@ -1,0 +1,17 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon (Imbert)",
+          "amenity": "",
+          "popupContent": ""
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [19.75420586118017, -70.82937602093145]
+      }
+    }
+  ]
+}

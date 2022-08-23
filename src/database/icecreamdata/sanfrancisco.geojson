@@ -1,0 +1,53 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon / Yoge Fruz (Calle San Francisco)",
+          "amenity": "",
+          "popupContent": ""
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [19.29727, -70.25684]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon IV",
+          "amenity": "",
+          "popupContent": ""
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [19.29168, -70.25241]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon (Plaza el Tejar)",
+          "amenity": " ",
+          "popupContent": ""
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [19.28961, -70.26338]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon",
+          "amenity": "",
+          "popupContent": ""
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [19.28727, -70.26906]
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Helados Bon (Sabana Iglesia)"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [19.32387176907159, -70.75347401206498]
+      }
+    }
+  ]
+}

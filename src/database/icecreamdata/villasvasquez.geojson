@@ -1,0 +1,15 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon (Villa Vasquez)"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [19.73958828953217, -71.44720323758617]
+      }
+    }
+  ]
+}

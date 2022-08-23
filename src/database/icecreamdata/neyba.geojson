@@ -1,0 +1,15 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon (Neyba)"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [18.479383383325718, -71.42112233274506]
+      }
+    }
+  ]
+}

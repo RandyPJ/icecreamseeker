@@ -1,0 +1,35 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon / Yogen Fruz"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [18.414159949037106, -70.1100822073543]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon / Yogen Fruz"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [18.41890249478487, -70.11281953810388]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon / Yogen Fruz"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [18.415499246042955, -70.10134758237223]
+      }
+    }
+  ]
+}

@@ -54,7 +54,7 @@
       "properties": {
           "name": "Helados Bon (Castillo)",
           "amenity": "",
-          "popupContent": "castillo"
+          "popupContent": ""
       },
       "geometry": {
           "type": "Point",
@@ -190,7 +190,7 @@
       },
       "geometry": {
           "type": "Point",
-          "coordinates": [18.599806092329388, -68.41865415419933]
+          "coordinates": [18.59981124952981, -68.41865299816209]
       }
     },
     {
@@ -577,8 +577,7 @@
           "type": "Point",
           "coordinates": [19.592731163477634, -70.97918465853904]
       }
-    }
-    ,
+    },
     {
       "type": "Feature",
       "properties": {
@@ -589,6 +588,18 @@
       "geometry": {
           "type": "Point",
           "coordinates": [19.57876255089125, -70.99077677282398]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon (Sabana Iglesia)",
+          "amenity": "",
+          "popupContent": ""
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [19.32387176907159, -70.75347401206498]
       }
     }
   ]

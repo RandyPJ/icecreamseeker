@@ -1,0 +1,47 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon MultiPlaza"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [18.60124173980105, -68.71717541062559]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [18.613895026720584, -68.71255615767515]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [18.624424204605983, -68.7104928206352]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [18.648749511337854, -68.65884686791205]
+      }
+    }
+
+    
+  ]
+}

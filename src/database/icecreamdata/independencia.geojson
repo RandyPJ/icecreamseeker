@@ -1,0 +1,15 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon (El Power)"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [18.274288307506183, -71.31839135518408]
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon (Castillo)"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [18.495424376810252, -71.84870355619904]
+      }
+    }
+  ]
+}

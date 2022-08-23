@@ -1,0 +1,27 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon (Dajabón)"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [19.549324108237663, -71.70755185781314]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [19.419987362926772, -71.61276008611802]
+      }
+    }
+  ]
+}
+
+

@@ -1,0 +1,15 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon (Monte Cristi)"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [19.848432019082583, -71.64695839958071]
+      }
+    }
+  ]
+}
