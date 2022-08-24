@@ -4,87 +4,23 @@
     {
       "type": "Feature",
       "properties": {
-          "name": "Helados Bon / Yoge Fruz (Calle San Francisco)",
-          "amenity": "",
-          "popupContent": ""
+          "name": "Helados Bon"
       },
       "geometry": {
           "type": "Point",
-          "coordinates": [19.29727, -70.25684]
+          "coordinates": [18.453456821075747, -70.73431514959192]
       }
     },
     {
       "type": "Feature",
       "properties": {
-          "name": "Helados Bon IV",
-          "amenity": "",
-          "popupContent": ""
+          "name": "Helados Bon"
       },
       "geometry": {
           "type": "Point",
-          "coordinates": [19.29168, -70.25241]
+          "coordinates": [18.453933435928978, -70.7294642453816]
       }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-          "name": "Helados Bon (Plaza el Tejar)",
-          "amenity": " ",
-          "popupContent": ""
-      },
-      "geometry": {
-          "type": "Point",
-          "coordinates": [19.28961, -70.26338]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-          "name": "Helados Bon",
-          "amenity": "",
-          "popupContent": ""
-      },
-      "geometry": {
-          "type": "Point",
-          "coordinates": [19.28727, -70.26906]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-          "name": "Helados Bon (Castillo)",
-          "amenity": "",
-          "popupContent": ""
-      },
-      "geometry": {
-          "type": "Point",
-          "coordinates": [19.209796194429824, -70.02733418284451]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-          "name": "Helados Bon (Tenares)",
-          "amenity": "",
-          "popupContent": ""
-      },
-      "geometry": {
-          "type": "Point",
-          "coordinates": [19.37189532458198, -70.35049551684708]
-      }
-    },    
-    {
-      "type": "Feature",
-      "properties": {
-          "name": "Helados Bon (Salcedo)",
-          "amenity": "",
-          "popupContent": ""
-      },
-      "geometry": {
-          "type": "Point",
-          "coordinates": [19.37976936724059, -70.41837579467338]
-      }
-    },    
+    }, 
     {
       "type": "Feature",
       "properties": {
@@ -100,13 +36,58 @@
     {
       "type": "Feature",
       "properties": {
-          "name": "Helados Bon (Pimentel)",
+          "name": "Helados Bon (Villa Vasquez)"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [19.73958828953217, -71.44720323758617]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon (Barahona)",
           "amenity": "",
           "popupContent": ""
       },
       "geometry": {
           "type": "Point",
-          "coordinates": [19.182009027248036, -70.11026968754997]
+          "coordinates": [18.207645196324677, -71.09922305106241]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon",
+          "amenity": "",
+          "popupContent": ""
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [18.636842887535863, -68.39741367461235]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon",
+          "amenity": "",
+          "popupContent": ""
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [18.608612772539324, -68.41262882132338]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon",
+          "amenity": "",
+          "popupContent": ""
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [18.59981124952981, -68.41865299816209]
       }
     },
     {
@@ -119,6 +100,245 @@
       "geometry": {
           "type": "Point",
           "coordinates": [18.942135862930197, -70.40992594197981]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon (Cabrera)",
+          "amenity": "",
+          "popupContent": ""
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [19.637310443045514, -69.9045292619492]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon (Castillo)"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [19.209796194429824, -70.02733418284451]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon (Dajabón)"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [19.549324108237663, -71.70755185781314]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [19.419987362926772, -71.61276008611802]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon (Esperanza)"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [19.592617813842427, -70.97922841223917]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon (Gaspar Hernandez)",
+          "amenity": "",
+          "popupContent": ""
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [19.627246401638107, -70.27949846271531]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [18.415989497781364, -70.0303961612348]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon MultiPlaza"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [18.60124173980105, -68.71717541062559]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [18.613895026720584, -68.71255615767515]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [18.624424204605983, -68.7104928206352]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [18.648749511337854, -68.65884686791205]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon (Imbert)",
+          "amenity": "",
+          "popupContent": ""
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [19.75420586118017, -70.82937602093145]
+      }
+    },
+     {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon (El Power)"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [18.274288307506183, -71.31839135518408]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon (Castillo)"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [18.495424376810252, -71.84870355619904]
+      }
+    },{
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [18.41887008988247, -68.96580605919053]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [18.423259371176428, -68.9673431061201]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [18.430488637154408, -68.98401737097448]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [18.41887175361574, -68.96580795371271]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [18.423259985698817, -68.96734537452097]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [18.434271201862686, -68.96962337463661]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Centro de Distribución de Helados Bon"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [18.43486852134823, -68.96543282819536]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon (Las Terrenas)",
+          "amenity": "",
+          "popupContent": ""
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [19.31243477665312, -69.54312292094085]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon Yogen Früz (Las Terrenas)",
+          "amenity": "",
+          "popupContent": ""
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [19.321595779616054, -69.539958831903]
       }
     },
     {
@@ -172,290 +392,21 @@
     {
       "type": "Feature",
       "properties": {
-          "name": "Helados Bon (Barahona)",
-          "amenity": "",
-          "popupContent": ""
+          "name": "Helados Bon (Monte Cristi)"
       },
       "geometry": {
           "type": "Point",
-          "coordinates": [18.207650386147513, -71.09922473114257]
+          "coordinates": [19.848432019082583, -71.64695839958071]
       }
     },
     {
       "type": "Feature",
       "properties": {
-          "name": "Helados Bon",
-          "amenity": "",
-          "popupContent": ""
+          "name": "Helados Bon (Neyba)"
       },
       "geometry": {
           "type": "Point",
-          "coordinates": [18.59981124952981, -68.41865299816209]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-          "name": "Helados Bon",
-          "amenity": "",
-          "popupContent": ""
-      },
-      "geometry": {
-          "type": "Point",
-          "coordinates": [18.608612772539324, -68.41262882132338]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-          "name": "Helados Bon",
-          "amenity": "",
-          "popupContent": ""
-      },
-      "geometry": {
-          "type": "Point",
-          "coordinates": [18.636842887535863, -68.39741367461235]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-          "name": "Helados Bon",
-          "amenity": "",
-          "popupContent": ""
-      },
-      "geometry": {
-          "type": "Point",
-          "coordinates": [18.68547754140225, -68.45300000251424]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-          "name": "Helados Bon",
-          "amenity": "",
-          "popupContent": ""
-      },
-      "geometry": {
-          "type": "Point",
-          "coordinates": [18.483827678607565, -69.99804631950963]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-          "name": "Helados Bon",
-          "amenity": "",
-          "popupContent": ""
-      },
-      "geometry": {
-          "type": "Point",
-          "coordinates": [18.469049153770648, -69.99495699701869]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-          "name": "Helados Bon",
-          "amenity": "",
-          "popupContent": ""
-      },
-      "geometry": {
-          "type": "Point",
-          "coordinates": [18.496008460300178, -69.95922064661941]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-          "name": "Helados Bon",
-          "amenity": "",
-          "popupContent": ""
-      },
-      "geometry": {
-          "type": "Point",
-          "coordinates": [118.506539389493497, -69.97705114552153]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-          "name": "Helados Bon",
-          "amenity": "",
-          "popupContent": ""
-      },
-      "geometry": {
-          "type": "Point",
-          "coordinates": [18.429260914717844, -69.98023197077414]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-          "name": "Helados Bon El Pedregal",
-          "amenity": "",
-          "popupContent": ""
-      },
-      "geometry": {
-          "type": "Point",
-          "coordinates": [18.42926345936886, -69.98022325359459]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-          "name": "Helados Bon",
-          "amenity": "",
-          "popupContent": ""
-      },
-      "geometry": {
-          "type": "Point",
-          "coordinates": [18.43108082563891, -69.97027362677817]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-          "name": "Fábrica de Helados Bon",
-          "amenity": "",
-          "popupContent": ""
-      },
-      "geometry": {
-          "type": "Point",
-          "coordinates": [18.436841622638426, -69.98447652326712]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-          "name": "Helados Bon",
-          "amenity": "",
-          "popupContent": ""
-      },
-      "geometry": {
-          "type": "Point",
-          "coordinates": [18.43650588468221, -69.98525781712777]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-          "name": "Helados Bon",
-          "amenity": "",
-          "popupContent": ""
-      },
-      "geometry": {
-          "type": "Point",
-          "coordinates": [18.44288732508834, -69.96989695513292]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-          "name": "Helados Bon",
-          "amenity": "",
-          "popupContent": ""
-      },
-      "geometry": {
-          "type": "Point",
-          "coordinates": [19.37685901203616, -69.84720047276076]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-          "name": "Yogen Früz",
-          "amenity": "",
-          "popupContent": ""
-      },
-      "geometry": {
-          "type": "Point",
-          "coordinates": [19.37688241712349, -69.84718169729712]
-      }
-    }
-    ,
-    {
-      "type": "Feature",
-      "properties": {
-          "name": "Helados Bon",
-          "amenity": "",
-          "popupContent": ""
-      },
-      "geometry": {
-          "type": "Point",
-          "coordinates": [19.37847999416606, -69.85374571485427]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-          "name": "Helados Bon (Las Terrenas)",
-          "amenity": "",
-          "popupContent": ""
-      },
-      "geometry": {
-          "type": "Point",
-          "coordinates": [19.31243477665312, -69.54312292094085]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-          "name": "Helados Bon Yogen Früz (Las Terrenas)",
-          "amenity": "",
-          "popupContent": ""
-      },
-      "geometry": {
-          "type": "Point",
-          "coordinates": [19.321595779616054, -69.539958831903]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-          "name": "Helados Bon",
-          "amenity": "",
-          "popupContent": ""
-      },
-      "geometry": {
-          "type": "Point",
-          "coordinates": [19.20357578276348, -69.33254104163152]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-          "name": "Helados Bon (Cabrera)",
-          "amenity": "",
-          "popupContent": ""
-      },
-      "geometry": {
-          "type": "Point",
-          "coordinates": [19.637310443045514, -69.9045292619492]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-          "name": "Helados Bon (Río San Juan)",
-          "amenity": "",
-          "popupContent": ""
-      },
-      "geometry": {
-          "type": "Point",
-          "coordinates": [19.6442504274122, -70.07528680676263]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-          "name": "Helados Bon (Gaspar Hernandez)",
-          "amenity": "",
-          "popupContent": ""
-      },
-      "geometry": {
-          "type": "Point",
-          "coordinates": [19.627246401638107, -70.27949846271531]
+          "coordinates": [18.479383383325718, -71.42112233274506]
       }
     },
     {
@@ -545,13 +496,101 @@
     {
       "type": "Feature",
       "properties": {
-          "name": "Helados Bon (Imbert)",
+          "name": "Helados Bon (Río San Juan)",
           "amenity": "",
           "popupContent": ""
       },
       "geometry": {
           "type": "Point",
-          "coordinates": [19.75420974128488, -70.82937378538918]
+          "coordinates": [19.6442504274122, -70.07528680676263]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Helados Bon (Sabana Iglesia)"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [19.32387176907159, -70.75347401206498]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon (Salcedo)",
+          "amenity": "",
+          "popupContent": ""
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [19.37976936724059, -70.41837579467338]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon / Yogen Fruz"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [18.414159949037106, -70.1100822073543]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon / Yogen Fruz"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [18.41890249478487, -70.11281953810388]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon / Yogen Fruz"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [18.415499246042955, -70.10134758237223]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon / Yoge Fruz (Calle San Francisco)",
+          "amenity": "",
+          "popupContent": ""
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [19.29727, -70.25684]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon IV",
+          "amenity": "",
+          "popupContent": ""
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [19.29168, -70.25241]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon (Plaza el Tejar)",
+          "amenity": " ",
+          "popupContent": ""
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [19.28961, -70.26338]
       }
     },
     {
@@ -563,48 +602,309 @@
       },
       "geometry": {
           "type": "Point",
-          "coordinates": [19.592617813842427, -70.97922841223917]
+          "coordinates": [19.28727, -70.26906]
       }
     },
     {
       "type": "Feature",
       "properties": {
-          "name": "Helados Bon Parque",
-          "amenity": "",
-          "popupContent": ""
+          "name": "Helados Bon"
       },
       "geometry": {
           "type": "Point",
-          "coordinates": [19.592731163477634, -70.97918465853904]
+          "coordinates": [18.80695062639918, -71.22698413177172]
       }
     },
     {
       "type": "Feature",
       "properties": {
-          "name": "Helados Bon Parque",
-          "amenity": "",
-          "popupContent": ""
+          "name": "Helados Bon"
       },
       "geometry": {
           "type": "Point",
-          "coordinates": [19.57876255089125, -70.99077677282398]
+          "coordinates": [18.807973046540663, -71.22510189449667]
       }
     },
     {
       "type": "Feature",
       "properties": {
-          "name": "Helados Bon (Sabana Iglesia)",
-          "amenity": "",
-          "popupContent": ""
+          "name": "Helados Bon"
       },
       "geometry": {
           "type": "Point",
-          "coordinates": [19.32387176907159, -70.75347401206498]
+          "coordinates": [18.45452920213536, -69.30751682318186]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [18.46119062893891, -69.29424109664248]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [18.470010991071714, -69.29370047437676]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [19.43031403491975, -70.69011220269132]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [19.450473006545543, -70.7009793690551]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [19.44831357747304, -70.67826242765751]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [19.458707758229835, -70.67468000960794]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [19.45047260870501, -70.70098077648969]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon & Yogen Fruz"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [19.462844612683273, -70.69230493068092]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [19.470400612563715, -70.68376303512933]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [19.473645470527412, -70.71397615099573]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [18.429852224815686, -69.9801274111378]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Fábrica de Helados Bon"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [18.436837985759247, -69.98447426078424]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [18.431075185319205, -69.97027156205185]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [18.442883387030005, -69.96989710829868]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [18.448178208708477, -69.98195378214226]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [18.45151063188622, -69.95298095996401]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [18.457031912496266, -69.95035792607237]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [18.462588569275816, -69.97583409501215]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [18.469049212050408, -69.99495872907735]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [18.474588342101995, -69.98499347526435]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [18.4838203062093, -69.99805041088908]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [18.488994384601096, -69.97889241862914]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [18.496002201499106, -69.95922610582812]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [18.506532347202295, -69.97705377870666]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [18.524588018103483, -70.03058641134953]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [18.490026137168655, -69.8696671045613]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helados Bon"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [18.507376843884398, -69.85531172327656]
       }
     }
+
   ]
 }
-
-
-
-

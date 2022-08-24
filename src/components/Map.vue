@@ -1,7 +1,18 @@
 
 <script setup>
-import { onMounted } from "@vue/runtime-core";
+import { onMounted, watch } from "@vue/runtime-core";
 import data from "../database/icecreamdata/icecream.json";
+
+var map = {};
+const tileUrl = "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png";
+const attribution =
+  '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors';
+const iconUrl =
+  "https://cdn3.iconfinder.com/data/icons/placeholder/64/dessert-sweet-icecream-placeholder-pin-pointer-gps-map-location-512.png";
+
+function setMapView(latitude, longitude) {
+  map = L.map("map").setView([latitude, longitude], 10);
+}
 
 function configureMap() {
   let drLatLong = {
@@ -9,13 +20,14 @@ function configureMap() {
     longitude: -69.931212,
   };
 
-  var map = L.map("map").setView([drLatLong.latitude, drLatLong.longitude], 13);
+  setMapView(drLatLong.latitude, drLatLong.longitude);
 
-  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-    attribution:
-      '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+  let tiles = L.tileLayer(tileUrl, {
+    attribution,
     maxZoom: 19,
-  }).addTo(map);
+  });
+
+  tiles.addTo(map);
 
   addLatitudeLongitudePopup(map);
   addLocateControl(map);
@@ -24,7 +36,6 @@ function configureMap() {
 
 function addLocateControl(map) {
   var locate = L.control.locate().addTo(map);
-  //locate.start();
   locate.onLocationError = function (error) {
     window.console.log(error);
   };
@@ -43,8 +54,7 @@ function addLatitudeLongitudePopup(map) {
 
 function addGeoJson(map) {
   var icecreamMarker = L.icon({
-    iconUrl:
-      "https://cdn3.iconfinder.com/data/icons/placeholder/64/dessert-sweet-icecream-placeholder-pin-pointer-gps-map-location-512.png",
+    iconUrl,
     iconSize: [35, 35],
   });
 
@@ -72,6 +82,20 @@ function addFeaturePopup(event, map, feature) {
     .openOn(map);
 }
 
+let props = defineProps({
+  selectedShop: Object,
+});
+
+watch(
+  () => props.selectedShop,
+  (newValue, oldValue) => {
+    if (newValue) {
+      let coordinates = newValue.coordinates.slice();
+      setMapView(coordinates[0], coordinates[1]);
+    }
+  }
+);
+
 onMounted(() => {
   configureMap();
 });
@@ -85,6 +109,7 @@ onMounted(() => {
 <style scoped>
 #map {
   height: 94vh;
+  z-index: 1;
 }
 
 .popup-title {

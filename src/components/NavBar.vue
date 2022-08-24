@@ -1,10 +1,16 @@
 <template>
   <div class="navbar">
     <h1 class="title">Helados Bon Seeker</h1>
+    <span @click="openSearch()" class="btn-opensearch fa fa-search"></span>
   </div>
 </template>
 
-<script>
+<script setup>
+const emit = defineEmits(["onOpenSearch"]);
+
+function openSearch() {
+  emit("onOpenSearch", true);
+}
 </script>
 
 
@@ -21,5 +27,13 @@
   font-size: 1.2em;
   font-weight: 300;
   color: rgb(156, 151, 151);
+}
+
+.btn-opensearch {
+  cursor: pointer;
+  font-size: 1.2em;
+  position: absolute;
+  top: 14px;
+  right: 10px;
 }
 </style>
