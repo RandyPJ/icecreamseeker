@@ -1,7 +1,7 @@
 <template>
   <div class="side-nav" :class="{ sidenavopen: isSideNavOpen }">
     <div class="search-container">
-      <span class="btn-close" @click="onSideNavClosed"
+      <span class="btn-close" @click="closeSidenav"
         ><i class="fa fa-times" aria-hidden="true"></i
       ></span>
       <input
@@ -27,30 +27,28 @@
 
 <script setup>
 import { ref, computed, reactive } from "vue";
-import { getGeoData, searchData } from "../database/repositories/repository.js";
+import { searchData } from "../database/repositories/repository.js";
 
 defineProps({
   isSideNavOpen: Boolean,
 });
 
-let data = reactive(getGeoData());
 let emit = defineEmits(["onSideNavClosed, onShopSelected"]);
-
-function onSideNavClosed() {
-  emit("onSideNavClosed", false);
-}
-
 let searchString = ref("");
 let searchedData = computed(() => {
   return searchData(searchString);
 });
+
+function closeSidenav() {
+  emit("onSideNavClosed", false);
+}
 
 function selectShop(shop) {
   searchString.value = "";
   emit("onShopSelected", shop);
   onSideNavClosed();
 }
-</script>const
+</script>
 
 <style>
 .side-nav {
@@ -115,6 +113,10 @@ function selectShop(shop) {
   top: 5px;
   right: 0px;
   text-align: right;
+}
+
+.btn-close:focus .btn-close:hover {
+  background-color: white;
 }
 
 .list {
