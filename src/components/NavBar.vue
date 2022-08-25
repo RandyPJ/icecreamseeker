@@ -36,4 +36,11 @@ function openSearch() {
   top: 14px;
   right: 10px;
 }
+
+@media only screen and (max-width: 768px) {
+  .btn-opensearch {
+    font-size: 1em;
+    top: 12px;
+  }
+}
 </style>

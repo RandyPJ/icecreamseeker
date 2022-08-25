@@ -32,8 +32,6 @@ function onShopSelected(selectedShopParam) {
 }
 </script>
 
-
-
 <style scoped>
 .container {
   display: flex;

@@ -1,14 +1,17 @@
 <template>
   <div class="side-nav" :class="{ sidenavopen: isSideNavOpen }">
-    <span class="btn-close" @click="onSideNavClosed"
-      ><i class="fa fa-close"></i
-    ></span>
-    <input
-      class="search-input"
-      type="text"
-      placeholder="Search..."
-      v-model="searchString"
-    />
+    <div class="search-container">
+      <span class="btn-close" @click="onSideNavClosed"
+        ><i class="fa fa-times" aria-hidden="true"></i
+      ></span>
+      <input
+        class="search-input"
+        type="text"
+        placeholder="Search..."
+        v-model="searchString"
+      />
+    </div>
+
     <div
       class="list"
       v-for="shop in searchedData"
@@ -39,12 +42,11 @@ function onSideNavClosed() {
 
 let searchString = ref("");
 let searchedData = computed(() => {
-  return data.filter((d) =>
-    d.properties.name.toLowerCase().includes(searchString.value.toLowerCase())
-  );
+  return searchData(searchString);
 });
 
 function selectShop(shop) {
+  searchString.value = "";
   emit("onShopSelected", shop);
   onSideNavClosed();
 }
@@ -61,9 +63,9 @@ function selectShop(shop) {
   top: 0;
   right: 0;
   background-color: white;
-  opacity: 0.9;
   overflow-x: hidden;
   transition: 0.3s;
+  scroll-behavior: smooth;
 }
 
 .sidenavopen {
@@ -76,9 +78,19 @@ function selectShop(shop) {
   top: 0;
   right: 0;
   background-color: white;
-  opacity: 0.9;
+  opacity: 1;
   overflow-x: hidden;
   transition: 0.3s;
+  scroll-behavior: smooth;
+}
+
+.search-container {
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  top: 5px;
+  opacity: 1;
+  border-bottom: 1px solid lightgray;
 }
 
 .search-input {
@@ -89,12 +101,20 @@ function selectShop(shop) {
   border: none;
   background-color: rgba(231, 225, 225, 0.541);
   border-radius: 0.2em;
+  position: sticky;
+  top: 30px;
 }
 
 .btn-close {
-  font-size: 1.2em;
-  margin: 0.4em;
+  font-weight: 200;
+  font-size: 1.4em;
+  margin-top: 0.2em;
+  margin-right: 0.5em;
   cursor: pointer;
+  position: sticky;
+  top: 5px;
+  right: 0px;
+  text-align: right;
 }
 
 .list {
@@ -114,12 +134,23 @@ function selectShop(shop) {
 
 .shop-name {
   padding: 0;
+  font-size: 1em;
+  font-weight: 600;
 }
 
 .coordinates {
   margin: 0;
 }
 
-@media screen {
+@media only screen and (max-width: 768px) {
+  .sidenavopen {
+    width: 250px;
+  }
+
+  .search-input {
+    margin: 0.4em;
+    font-size: 1em;
+    padding: 0.2em;
+  }
 }
 </style>

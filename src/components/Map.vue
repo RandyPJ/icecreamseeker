@@ -10,9 +10,7 @@ const attribution =
 const iconUrl =
   "https://cdn3.iconfinder.com/data/icons/placeholder/64/dessert-sweet-icecream-placeholder-pin-pointer-gps-map-location-512.png";
 
-function setMapView(latitude, longitude) {
-  map = L.map("map").setView([latitude, longitude], 10);
-}
+function setMapView(latitude, longitude) {}
 
 function configureMap() {
   let drLatLong = {
@@ -20,7 +18,7 @@ function configureMap() {
     longitude: -69.931212,
   };
 
-  setMapView(drLatLong.latitude, drLatLong.longitude);
+  map = L.map("map").setView([drLatLong.latitude, drLatLong.longitude], 13);
 
   let tiles = L.tileLayer(tileUrl, {
     attribution,
@@ -35,7 +33,7 @@ function configureMap() {
 }
 
 function addLocateControl(map) {
-  var locate = L.control.locate().addTo(map);
+  var locate = L.control.locate({ flyTo: true }).addTo(map);
   locate.onLocationError = function (error) {
     window.console.log(error);
   };
@@ -88,10 +86,10 @@ let props = defineProps({
 
 watch(
   () => props.selectedShop,
-  (newValue, oldValue) => {
+  (newValue) => {
     if (newValue) {
       let coordinates = newValue.coordinates.slice();
-      setMapView(coordinates[0], coordinates[1]);
+      map.flyTo([coordinates[0], coordinates[1]], 19);
     }
   }
 );

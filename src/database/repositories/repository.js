@@ -10,9 +10,12 @@ export const getGeoData = () => Object.freeze(frozenData.features.map(f => ( {
 
 export function searchData(searchString)
 {
-  if(searchData.toString().startsWith(typeof Number)) { 
-    return data.features.map(f => f.geometry.coordinates.filter(c => c.toString().includes(searchString)));
-  }else{
-    return data.features.filter(f => f.properties.name.includes(searchString));
-  }
+  return getGeoData().filter((d) => {
+    return (
+      d.properties.name
+        .toLowerCase()
+        .includes(searchString.value.toLowerCase()) ||
+      d.coordinates.toString().includes(searchString.value.toLowerCase())
+    );
+  });
 } 
