@@ -1,9 +1,9 @@
 <template>
   <div class="container">
-    <NavBar @on-open-search="onOpenSearch"></NavBar>
+    <NavBar @open-search="onOpenSearch"></NavBar>
     <Search
-      @on-side-nav-closed="onCloseSearch"
-      @on-shop-selected="onShopSelected"
+      @side-nav-closed="onCloseSearch"
+      @shop-selected="onShopSelected"
       :is-side-nav-open="openSearch"
     ></Search>
     <Map :selected-shop="selectedShop"></Map>

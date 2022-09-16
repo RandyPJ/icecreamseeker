@@ -10,8 +10,6 @@ const attribution =
 const iconUrl =
   "https://cdn3.iconfinder.com/data/icons/placeholder/64/dessert-sweet-icecream-placeholder-pin-pointer-gps-map-location-512.png";
 
-function setMapView(latitude, longitude) {}
-
 function configureMap() {
   let drLatLong = {
     latitude: 18.486058,

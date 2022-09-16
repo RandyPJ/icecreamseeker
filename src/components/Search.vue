@@ -1,5 +1,5 @@
 <template>
-  <div class="side-nav" :class="{ sidenavopen: isSideNavOpen }">
+  <div class="side-nav" :class="{ sidenavopen: isMySideNavOpen }">
     <div class="search-container">
       <span class="btn-close" @click="closeSidenav"
         ><i class="fa fa-times" aria-hidden="true"></i
@@ -26,28 +26,38 @@
 </template>
 
 <script setup>
-import { ref, computed, reactive } from "vue";
+import { ref, computed, reactive, watch } from "vue";
 import { searchData } from "../database/repositories/repository.js";
 
-defineProps({
+let props = defineProps({
   isSideNavOpen: Boolean,
 });
 
-let emit = defineEmits(["onSideNavClosed, onShopSelected"]);
+const emit = defineEmits(["sideNavClosed", "onShopSelected"]);
+
 let searchString = ref("");
+let isMySideNavOpen = ref(false);
+
 let searchedData = computed(() => {
   return searchData(searchString);
 });
 
 function closeSidenav() {
-  emit("onSideNavClosed", false);
+  emit("sideNavClosed", false);
 }
 
 function selectShop(shop) {
   searchString.value = "";
-  emit("onShopSelected", shop);
+  emit("shopSelected", shop);
   onSideNavClosed();
 }
+
+watch(
+  () => props.isSideNavOpen,
+  (newValue) => {
+    isMySideNavOpen.value = newValue;
+  }
+);
 </script>
 
 <style>
@@ -147,6 +157,18 @@ function selectShop(shop) {
 @media only screen and (max-width: 768px) {
   .sidenavopen {
     width: 250px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    background-color: white;
+    opacity: 1;
+    overflow-x: hidden;
+    transition: 0.3s;
+    scroll-behavior: smooth;
   }
 
   .search-input {

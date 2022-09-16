@@ -6,10 +6,10 @@
 </template>
 
 <script setup>
-const emit = defineEmits(["onOpenSearch"]);
+const emit = defineEmits(["openSearch"]);
 
 function openSearch() {
-  emit("onOpenSearch", true);
+  emit("openSearch", true);
 }
 </script>
 
